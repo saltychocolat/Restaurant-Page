@@ -1,6 +1,7 @@
 function createHome(){
     let content = document.querySelector("#content");
-
+    content.innerHTML = "";
+    
     let first = document.createElement("div");
     first.id = "first";
 
